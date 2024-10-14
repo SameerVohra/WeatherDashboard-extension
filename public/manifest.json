@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "name": "Weather Dashboard",
+  "description": "This is a Weather dashboard",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "permissions": [
+    "scripting"
+  ]
+}
